@@ -123,3 +123,52 @@ body {
         margin: 0 10px 0 0;
     }
 }
+
+.list.tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    li {
+        vertical-align: bottom;
+        display: flex;
+        align-items: flex-end;
+    }
+}
+
+.tag-size-1, .tag-size-2, .tag-size-3, .tag-size-4, .tag-size-5 {
+    flex: auto;
+    text-decoration: none;
+    padding: 0 5px;
+    font-weight: bold;
+    
+    span {
+        color: gray;
+        font-size: 10px;
+    }
+}
+
+.tag-size-1 {
+    font-size: 18px;
+    color: rgb(80, 80, 250);
+}
+
+.tag-size-2 {
+    font-size: 21px;
+    color: rgb(60, 60, 225);
+}
+
+.tag-size-3 {
+    font-size: 24px;
+    color: rgb(40, 40, 200);
+}
+
+.tag-size-4 {
+    font-size: 27px;
+    color: rgb(20, 20, 175);
+}
+
+.tag-size-5 {
+    font-size: 30px;
+    color: rgb(0, 0, 150);
+}
